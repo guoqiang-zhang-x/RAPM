@@ -4,7 +4,7 @@
 
 ### Description 
 
-### code for generating images from pre-trained models 
+### Code for generating images from pre-trained models 
 
 
 
