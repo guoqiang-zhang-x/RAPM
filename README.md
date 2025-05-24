@@ -5,7 +5,7 @@
 ### Description 
 
 ### Code for generating images from pre-trained models 
-```
+```ruby
 
 import torch
 from diffusers import StableDiffusionXLPipeline
