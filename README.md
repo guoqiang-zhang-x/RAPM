@@ -5,8 +5,17 @@
 ### Description 
 
 ### Code for generating images from pre-trained models 
+```
+from diffusers import StableDiffusionXLPipeline
+from huggingface_hub import hf_hub_download
 
+base_model_id = "stabilityai/stable-diffusion-xl-base-1.0"
+repo_name = "guoqiang-x/RAPM_SDXL"
+ckpt_name = "RAPM_SDXL.pt"
 
+hf_hub_download(repo_id=repo_name, filename=ckpt_name, local_dir="./")
+
+```
 
 ### Citation
 
