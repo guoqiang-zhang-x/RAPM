@@ -7,6 +7,7 @@
 ### Code for generating images from pre-trained models 
 ```ruby
 
+import os
 import torch
 from diffusers import StableDiffusionXLPipeline
 from huggingface_hub import hf_hub_download
