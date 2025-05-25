@@ -2,6 +2,10 @@
 
 ### [paper link](https://arxiv.org/abs/2503.20744), 2025, by Guoqiang Zhang, N. Kenta, J. P. Lewis, C. Mesnage, and W. Bastiaan Kleijn
 
+<a href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/guoqiang-zhang-x/RAPM/blob/main/image_examples/RAPM_images.png" width="900" /></a>
+
+
+
 ### Description 
 
 ### Code for generating images from pre-trained models 
