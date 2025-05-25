@@ -7,7 +7,7 @@
 
 
 ### Description
-Existing diffusion distillation methods such as DMD2 and PCM are both effective and resource-demanding in terms of the number of GPUs. In this project, we propose a new diffusion distillation method, named as __relative and absolute position matching (RAPM)__. In brief, RAPM sucessfully distillates SDXL over a single GPU with batchsize=1. From a high-level point of view, RAPM trains the student model by mimicing the teacher's fine-grainded trajectories by matching both the relative and absolute positions per coarse time-slot. 
+Existing diffusion distillation methods such as DMD2 and PCM are both effective and resource-demanding in terms of the number of GPUs. In this project, we propose a new diffusion distillation method, named as __relative and absolute position matching (RAPM)__. In brief, RAPM sucessfully distillates SDXL over a single GPU with batchsize=1 without using real images. From a high-level point of view, RAPM trains the student model by mimicing the teacher's fine-grainded trajectories by matching both the relative and absolute positions per coarse time-slot. 
 
 
 In the experiment, the GPU being used was A6000 with 48GB. The rank of the Lora adaptive was set to 1. As a result, the lora parameters takes only a very small memory (about 7MB).    
