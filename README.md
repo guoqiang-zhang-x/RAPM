@@ -2,7 +2,18 @@
 
 ### [paper link](https://arxiv.org/abs/2503.20744), 2025, by Guoqiang Zhang, N. Kenta, J. P. Lewis, C. Mesnage, and W. Bastiaan Kleijn
 
-### Description 
+<a href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/guoqiang-zhang-x/RAPM/blob/main/image_examples/RAPM_images.png" width="900" /></a>
+
+
+
+### Description
+Existing diffusion distillation methods such as DMD2 and PCM are both effective and resource-demanding in terms of the number of GPUs. In this project, we propose a new diffusion distillation method, named as __relative and absolute position matching (RAPM)__.   
+
+### News
+__2025-05-24:__ the LoRA weights of RAPM after distillating SDXL was uploaded to [Huggingface](https://huggingface.co/guoqiang-x/RAPM_SDXL).
+
+
+
 
 ### Code for generating images from pre-trained models 
 ```ruby
@@ -21,7 +32,6 @@ lora_state_dict = torch.load(lora_weight_name)
 
 pipeline = StableDiffusionXLPipeline.from_pretrained(
     base_model_id,
-    #vae=vae,
     scheduler=DDIMScheduler(
         num_train_timesteps=1000,
         beta_start=0.00085,
