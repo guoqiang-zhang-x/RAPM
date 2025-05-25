@@ -6,11 +6,11 @@
 
 
 
-### Description 
-In this project, we propose 
+### Description
+Existing diffusion distillation methods such as DMD2 and PCM are both effective and resource-demanding in terms of the number of GPUs. In this project, we propose a new diffusion distillation method, named as __relative and absolute position matching (RAPM)__.   
 
 ### News
-__2025-05-24__ the LoRA weights of RAPM after distillating SDXL was uploaded to [Huggingface](https://huggingface.co/guoqiang-x/RAPM_SDXL)
+__2025-05-24:__ the LoRA weights of RAPM after distillating SDXL was uploaded to [Huggingface](https://huggingface.co/guoqiang-x/RAPM_SDXL).
 
 
 
