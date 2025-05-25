@@ -7,6 +7,13 @@
 
 
 ### Description 
+In this project, we propose 
+
+### News
+__2025-05-24__ the LoRA weights of RAPM after distillating SDXL was uploaded to [Huggingface](https://huggingface.co/guoqiang-x/RAPM_SDXL)
+
+
+
 
 ### Code for generating images from pre-trained models 
 ```ruby
@@ -25,7 +32,6 @@ lora_state_dict = torch.load(lora_weight_name)
 
 pipeline = StableDiffusionXLPipeline.from_pretrained(
     base_model_id,
-    #vae=vae,
     scheduler=DDIMScheduler(
         num_train_timesteps=1000,
         beta_start=0.00085,
