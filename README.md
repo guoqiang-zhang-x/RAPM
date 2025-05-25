@@ -9,7 +9,7 @@
 ### Description
 Existing diffusion distillation methods such as DMD2 and PCM are both effective and resource-demanding in terms of the number of GPUs. In this project, we propose a new diffusion distillation method, named as __relative and absolute position matching (RAPM)__.   
 
-<a href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/guoqiang-zhang-x/RAPM/blob/main/image_examples/my_awesome.gif" width="300" /><em>image_caption</em> </a>
+<p href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/guoqiang-zhang-x/RAPM/blob/main/image_examples/my_awesome.gif" width="300" /><em>image_caption</em> </p>
 
 
 
