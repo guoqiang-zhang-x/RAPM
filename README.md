@@ -14,7 +14,7 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
 
 <p href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/guoqiang-zhang-x/RAPM/blob/main/image_examples/my_awesome.gif" width="460" /></p>
 <p><em> Distillating SDXL by RAPM with 4-step sampling 
-over 20K iterations on with batchsize=1 
+over 20K iterations with batchsize=1 
 </em>
 </p>
 
@@ -61,10 +61,6 @@ over 20K iterations on with batchsize=1
   </tr>  
 </table>
 
-<p>To understand the example better, we have added borders to the table.</p>
-
-</body>
-</html>
 
 ### News
 __2025-05-24:__ the LoRA weights of RAPM after distillating SDXL was uploaded to [Huggingface](https://huggingface.co/guoqiang-x/RAPM_SDXL).
