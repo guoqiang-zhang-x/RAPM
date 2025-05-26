@@ -17,7 +17,11 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
 </em>
 </p>
 
-    
+
+### FID and CLIP scores
+
+|--|--|
+|safd| asf|
 
 
 ### News
