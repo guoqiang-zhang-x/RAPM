@@ -18,7 +18,7 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
 </p>
 
 
-### FID and CLIP scores
+### FID and CLIP scores by using 30K text-image pairs from COCO 2014
 
 
 <table style="width:100%">
@@ -26,21 +26,25 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
     <th></th>
     <th>FID</th>
     <th>CLIP</th>
+    <th>Use real images</th>
   </tr>
   <tr>
     <td> PCM  </td>
     <td>22.84</td>
     <td>30.36</td>
+    <th>Yes</th>
   </tr>
   <tr>
     <td>DMD2 </td>
     <td>18.24 </td>
     <td>30.85</td>
+    <th>Yes</th>
   </tr>
   <tr>
     <td>RAPM </td>
     <td>19.21</td>
     <td>30.50</td>
+    <th>No</th>
   </tr>  
 </table>
 
