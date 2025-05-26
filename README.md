@@ -17,7 +17,16 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
 with batchsize=1 
 </em>
 </pre>
-
+<div class="text">
+<pre>
+  abc
+  def
+  ghi
+</pre>
+  abc
+  def
+  ghi
+</div>
     
 
 
