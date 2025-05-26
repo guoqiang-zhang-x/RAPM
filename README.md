@@ -51,7 +51,7 @@ over 20K iterations with batchsize=1
     <th>Yes</th>
   </tr>
   <tr>
-    <td>RAPM </td>
+    <td>RAPM (our) </td>
     <td> 1 A6000  </td>
     <th> 1 </th>
     <th> 31.5 hours </th>
