@@ -63,6 +63,7 @@ over 20K iterations with batchsize=1
   </tr>  
 </table>
 
+The overhead in RAPM refers to the time spent on generating and storing 1000 teacher trajectories before training the student model. 
 
 ### News
 __2025-05-24:__ the LoRA weights of RAPM after distillating SDXL was uploaded to [Huggingface](https://huggingface.co/guoqiang-x/RAPM_SDXL).
