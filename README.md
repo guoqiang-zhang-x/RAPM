@@ -20,27 +20,17 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
 
 ### FID and CLIP scores
 
-<!DOCTYPE html>
-<html>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-<body>
-
-<h2>A basic HTML table</h2>
 
 <table style="width:100%">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th></th>
+    <th>FID</th>
+    <th>CLIP</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td> PCM  </td>
+    <td>DMD2</td>
+    <td>RAPM</td>
   </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
