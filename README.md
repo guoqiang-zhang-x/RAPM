@@ -29,14 +29,19 @@ In the experiment, the single GPU being used was A6000 with 48GB. The rank of th
   </tr>
   <tr>
     <td> PCM  </td>
-    <td>DMD2</td>
-    <td>RAPM</td>
+    <td>22.84</td>
+    <td>30.36</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>DMD2 </td>
+    <td>18.24 </td>
+    <td>30.85</td>
   </tr>
+  <tr>
+    <td>RAPM </td>
+    <td>19.21</td>
+    <td>30.50</td>
+  </tr>  
 </table>
 
 <p>To understand the example better, we have added borders to the table.</p>
