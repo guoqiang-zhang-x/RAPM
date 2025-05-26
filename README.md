@@ -13,20 +13,11 @@ Existing diffusion distillation methods such as DMD2 and PCM are both effective 
 In the experiment, the single GPU being used was A6000 with 48GB. The rank of the Lora adaptive was set to 1. As a result, the lora parameters takes only a very small memory (about 7MB).    
 
 <p href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/guoqiang-zhang-x/RAPM/blob/main/image_examples/my_awesome.gif" width="450" /></p>
-<pre><em> Distillating SDXL by RAPM over 20K iterations on
+<p><em> Distillating SDXL by RAPM over 20K iterations on
 with batchsize=1 
 </em>
-</pre>
-<div class="text">
-<pre>
-  abc
-  def
-  ghi
-</pre>
-  abc
-  def
-  ghi
-</div>
+</p>
+
     
 
 
