@@ -26,6 +26,8 @@ over 20K iterations on with batchsize=1
   <tr>
     <th></th>
     <th>GPUs for training</th>
+    <th>Training batch size</th>
+    <th>training time +overhead </th>
     <th>FID</th>
     <th>CLIP</th>
     <th>Use real images</th>
@@ -33,6 +35,8 @@ over 20K iterations on with batchsize=1
   <tr>
     <td> PCM  </td>
     <td> 8 A100  </td>
+    <th>16</th>
+    <th> - </th>
     <td>22.84</td>
     <td>30.36</td>
     <th>Yes</th>
@@ -40,6 +44,8 @@ over 20K iterations on with batchsize=1
   <tr>
     <td>DMD2 </td>
     <td> 64 A00  </td>
+    <th>128 </th>
+    <th> 60 hours </th>
     <td>18.24 </td>
     <td>30.85</td>
     <th>Yes</th>
@@ -47,6 +53,8 @@ over 20K iterations on with batchsize=1
   <tr>
     <td>RAPM </td>
     <td> 1 A6000  </td>
+    <th> 1 </th>
+    <th> 31.5 hours </th>
     <td>19.21</td>
     <td>30.50</td>
     <th>No</th>
